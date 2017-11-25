@@ -1,0 +1,24 @@
+{
+  "name": "jest-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect-brk ./node_modules/.bin/jest -i",
+    "noJest": "node --inspect-brk ./test/no-jest"
+  },
+  "dependencies": {
+    "jest": "^21.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmkng/jest-debugging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnmkng/jest-debugging/issues"
+  },
+  "homepage": "https://github.com/mnmkng/jest-debugging#readme"
+}
