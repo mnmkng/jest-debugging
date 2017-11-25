@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --inspect-brk ./node_modules/.bin/jest -i",
-    "noJest": "node --inspect-brk ./test/no-jest"
+    "test": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "noJest": "node --inspect-brk test/no-jest"
   },
   "dependencies": {
     "jest": "^21.2.1"
