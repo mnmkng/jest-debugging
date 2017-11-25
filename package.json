@@ -10,6 +10,10 @@
   "dependencies": {
     "jest": "^21.2.1"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mnmkng/jest-debugging.git"
